@@ -4,4 +4,14 @@ Object-oriented programming (OOP) is a computer programming model that organizes
 An object can be defined as a data field that has unique attributes and behavior.
 
 for eg:In real world human is object and it has behavior(act or interact) and some attribute(brain,hand,walking).
-.
+
+What is the structure of object-oriented programming?
+
+○ Classes : user-defined data types that act as the blueprint for individual objects, attributes and methods.
+
+○ Object :  instances of a class created with specifically defined data.
+
+○ Methods : Methods are functions that are defined inside a class that describe the behaviors of an object.
+
+○ Attributes : . Objects will have data stored in the attributes field. Class attributes belong to the class itself.
+
