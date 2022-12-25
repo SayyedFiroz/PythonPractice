@@ -1,16 +1,19 @@
 #  __init__ method : It is Special method in python.
-#  It is called as a constructor in object oriented terminology.
+#  It is called as a constructor in object-oriented programming.
 #  it allows the class to initialize the attributes of the class.
 
 class Computer:
-    def __int__(self,process,ram):
+
+    def __init__(self, ram, process):
+        self.ram = ram
         self.process = process
-        self.ram    = ram
 
-    def config (self):
-        print("config is ",self.process,self.ram)
+    def config(self):
+        print("Config : ", "Ram is", self.ram, "Model is", self.process)
 
 
-com1 = Computer("i3",8)
-com2 = Computer("i5",16)
+com1 = Computer(8, 'i3')
+com2 = Computer(16, 'ryzen 3')
 
+com1.config()
+com2.config()
