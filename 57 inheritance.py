@@ -24,7 +24,7 @@ a1.feature1()
 b1 = B()
 b1.feature1()
 b1.feature2()
-
+print("  ")
 # Multi level inheritance :features of the base class and the derived class are further inherited into the new derived class. This is similar to a relationship representing a child and a grandfather.
 
 class C(B):
@@ -49,6 +49,7 @@ class E(A,D):
 
 e1 = E()
 
+
 e1.feature1()
 e1.feature4()
 e1.feature5()
@@ -57,4 +58,25 @@ e1.feature5()
 
 
 
+# hierarchical inheritance : when multiple child class inherit single parent class
 
+class z:
+    def featurez(self):
+        print("This is feature z")
+class x(z):
+    def featurex(self):
+        print("this is featurex")
+
+class c(z):
+    def featurec(self):
+        print("this is featurec")
+
+class v(z):
+    def featurev(self):
+        print("this is featurev")
+
+v1 = v()
+
+v1.featurez()
+
+# Hybrid inheritance : when all the types of in heritance is used.

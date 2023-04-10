@@ -5,7 +5,6 @@ def fun1():
     cl.add()           # Need to import add func in fun1 from calcu
     print("from fun1")
 
-
 def fun2():
     print("from fun2")
 

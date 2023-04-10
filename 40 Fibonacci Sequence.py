@@ -14,8 +14,8 @@ def fib(n):
 
     for i in range(2, n + 1):
         c = a + b
-        a = b
-        b = c
+        a = a + b
+        b = a - b
 
         if c <= n:
             print(c)
